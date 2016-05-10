@@ -1,3 +1,13 @@
+#Docker-ArrestDB
+
+This repo is the Dockerization of the ArrestDB repo.
+
+I wanted to create a simple multi-container REST API for Docker and container orchestration scale testing, and then I came across this little gem.  Therefore now this fork exists and I am sharing my Docker Compose files to illustrate implementation.
+
+The Dockerfile used to create image andrewprice/php-arrestdb is under the php directory.  The compose file references the Docker Hub image for ease of use in other testing environments.
+
+The use of haproxy is not necessary here.  I simply included it because I like the many functionality roles haproxy can provide.
+
 #ArrestDB
 
 ArrestDB is a "plug-n-play" RESTful API for SQLite, MySQL and PostgreSQL databases.
