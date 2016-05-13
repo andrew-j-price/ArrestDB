@@ -1,0 +1,8 @@
+php:
+  image: andrewprice/k8s-arrestdb-php
+  ports:
+   - "31234:80"
+  links:
+   - mariadb:andrpric-arrestdb-svc
+mariadb:
+  image: andrewprice/k8s-arrestdb-mariadb

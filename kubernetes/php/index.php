@@ -1,6 +1,6 @@
 <?php
 
-$dsn = "mysql://root:Password123@mariadb:3306/api/";
+$dsn = "mysql://root:Password123@andrpric-arrestdb-svc:3306/api/";
 $clients = [];
 
 /**
